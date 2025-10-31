@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisha Kushwaha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Prisha Kushwaha</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
+                <li><a href="#" class="nav-link" data-page="technologies">Technologies</a></li>
+                <li><a href="#" class="nav-link" data-page="resume">Resume</a></li>
+                <li><a href="#" class="nav-link" data-page="more">Beyond Tech</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <!-- Home Page -->
+                <section id="home" class="page active">
+            <div class="home-container">
+                <div class="profile-photo-container">
+                    <div class="profile-photo" id="profilePhoto">
+                    <img id="profileImage" class="profile-image" src="./assets/pfp.jpg" alt="Profile">
+
+                    </div>
+                </div>
+
+                <h1 class="hero-title">Prisha Kushwaha</h1>
+                <p class="hero-subtitle">Student | Tech Enthusiast | Developer</p>
+
+                <div class="about-section">
+                    <h2>About Me</h2>
+                    <p class="about-text">I'm a student who loves exploring tech — from front-end web development with HTML, CSS, and JavaScript to the basics of machine learning. I enjoy yapping about ideas, tech trends, and anything that sparks curiosity!</p>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Contact Me</h2>
+                    <div class="contact-buttons">
+                        <a href="https://github.com/Prisha5718" target="_blank" class="contact-btn github-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="mailto:prishak2110@gmail.com" class="contact-btn email-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects" class="page">
+            <div class="content-container">
+                <h1 class="page-title">My Projects</h1>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Converter</h3>
+                        <p>The Number System Converter is a simple web-based tool that allows users to convert numbers between different numeral systems — Decimal, Binary, Octal, and Hexadecimal. Built using HTML, CSS, and JavaScript, it provides an interactive and user-friendly interface where users can input a value and instantly view its equivalent in all formats. This project demonstrates basic JavaScript logic, input handling, and DOM manipulation for real-time data conversion.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prisha5718/Converter" target="_blank" class="github-link">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Resume Builder</h3>
+                        <p>The Resume Builder is a dynamic web application built using HTML, CSS, and JavaScript that enables users to create, preview, and download professional resumes interactively. It features real-time updates, allowing all entered information to instantly reflect in the live preview. Users can add or remove multiple entries in sections such as education, experience, and projects with ease. The tool also includes high-quality PDF generation using html2canvas and jsPDF, enabling seamless downloads. With its clean UI, efficient validation, and error handling, it ensures a smooth and user-friendly experience.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">html2canvas</span>
+                            <span class="tag">jsPDF</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prisha5718/Resume_Builder" target="_blank" class="github-link">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Employee Retention Analysis</h3>
+                        <p>The Employee Retention Analysis Project is a machine learning-based study that predicts and analyzes employee attrition trends using Random Forest and Support Vector Machine (SVM) models. It involves cleaning, preprocessing, encoding, and scaling the dataset for optimal model performance. Multiple SVM kernels (linear, polynomial, and RBF) are compared, with results visualized through accuracy charts, confusion matrices, and feature importance graphs. The project identifies the key factors influencing retention and provides data-driven insights and recommendations, with all findings neatly saved and organized for clear presentation.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Random Forest</span>
+                            <span class="tag">SVM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prisha5718/AI-ML-Task" target="_blank" class="github-link">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Library Management System</h3>
+                        <p>The Library Management System is a console-based Java application designed to simplify the process of managing books in a library. It enables users to efficiently add new books, issue books to members, and record returns while maintaining all data in a connected MySQL database through JDBC. This project demonstrates the practical use of Java's database connectivity and CRUD operations, offering a simple yet effective solution for organizing and tracking library resources.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JDBC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prisha5718/Library_Management_Java_APP" target="_blank" class="github-link">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Paper Trail</h3>
+                        <p>A web-based project for tracking and organizing documents and papers efficiently.</p>
+                        <div class="tech-tags">
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Prisha5718/Paper-Trail" target="_blank" class="github-link">View on GitHub</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Page -->
+        <section id="technologies" class="page">
+            <div class="content-container">
+                <h1 class="page-title">Technologies & Skills</h1>
+                <div class="tech-container">
+                    <div class="tech-category">
+                        <h3>Frontend Technologies</h3>
+                        <div class="tech-list">
+                            <span class="tech-item">HTML</span>
+                            <span class="tech-item">CSS</span>
+                            <span class="tech-item">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Programming Languages</h3>
+                        <div class="tech-list">
+                            <span class="tech-item">C</span>
+                            <span class="tech-item">C++</span>
+                            <span class="tech-item">Java</span>
+                            <span class="tech-item">Python</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Tools</h3>
+                        <div class="tech-list">
+                            <span class="tech-item">Git</span>
+                            <span class="tech-item">GitHub</span>
+                            <span class="tech-item">VS Code</span>
+                            <span class="tech-item">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Page -->
+        <section id="resume" class="page">
+            <div class="content-container">
+                <h1 class="page-title">Resume</h1>
+                <div class="resume-upload-container">
+                    <div class="resume-viewer">
+                        <iframe class="resume-frame" src="./assets/Final_RESUME_Prisha%20(3).pdf" title="Resume PDF"></iframe>
+                        <div class="resume-actions">
+                            <a href="./assets/Final_RESUME_Prisha%20(3).pdf" target="_blank" class="contact-btn email-btn">Open in new tab</a>
+                            <a href="./assets/Final_RESUME_Prisha%20(3).pdf" download class="contact-btn github-btn">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beyond Tech Page -->
+        <section id="more" class="page">
+            <div class="content-container">
+                <h1 class="page-title">Beyond Tech</h1>
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <div class="hobby-image-container">
+                            <div class="hobby-image" id="bowlingImage">
+                                <img class="hobby-img active" id="bowlingImg" src="./assets/bowl.jpg" alt="Bowling">
+                            </div>
+                        </div>
+                        <h3>Bowling</h3>
+                        <p>every roll is a chance to strike perfection!</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <div class="hobby-image-container">
+                            <div class="hobby-image" id="dancingImage">
+                                <img class="hobby-img active" id="dancingImg" src="./assets/dance.jpg" alt="Dancing">
+                            </div>
+                        </div>
+                        <h3>Dancing</h3>
+                        <p>Expressing myself through movement</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <div class="hobby-image-container">
+                            <div class="hobby-image" id="cookingImage">
+                                <img class="hobby-img active" id="cookingImg" src="./assets/foodpic.jpg" alt="Cooking">
+                            </div>
+                        </div>
+                        <h3>Cooking</h3>
+                        <p>Experimenting with recipes and flavors</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <div class="hobby-image-container">
+                            <div class="hobby-image" id="travelingImage">
+                                <img class="hobby-img active" id="travelingImg" src="./assets/travel.jpg" alt="Traveling">
+                            </div>
+                        </div>
+                        <h3>Traveling</h3>
+                        <p>Exploring new places and cultures</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
